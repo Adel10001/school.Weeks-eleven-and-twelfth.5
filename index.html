@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> اختبار قصير في بطاقة الأسبوع الحادى عشر والثاني عشر</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        .quiz-container {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .question {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .options {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .submit-btn {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: auto;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        .correct p {
+            color: green;
+        }
+        .incorrect p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1> اختبار قصير في بطاقة الأسبوع الحادى عشر والثاني عشر</h1>
+
+        <!-- السؤال الأول -->
+        <div class="question" id="q1-container">
+            <p>1.  ما هو سبب جذب الأجسام المشحونة للدقائق الصغيرة؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="c">  بسبب خاصية الوزن .</label>
+                <label><input type="radio" name="q1" value="b">  بسبب وجود الشحنات الكهربائية الساكنة .</label>
+               	<label><input type="radio" name="q1" value="a">   بسبب اختلاف كثافة الهواء حول الجسم .</label>			
+							
+            </div>
+        </div>
+
+        <!-- السؤال الثاني -->
+        <div class="question" id="q2-container">
+            <p>2. ما نوع الشحنة التي يكتسبها الجسم عند فقدان شحنة سالبة؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a">  يصبح مشحونًا بشحنة موجبة .</label>
+                <label><input type="radio" name="q2" value="b"> يصبح مشحونًا بشحنة سالبة .</label>
+                <label><input type="radio" name="q2" value="c">   يبقى متعادلًا كهربائيًا .</label>
+            </div>
+        </div>
+
+        <!-- السؤال الثالث -->
+        <div class="question" id="q3-container">
+            <p>3.  يقال إن البرق يحدث عندما يكون هناك فرق في الشحنات بين السحب والأرض. إذا كانت جميع السحب تحمل نفس نوع الشحنة، فماذا تتوقع أن يحدث؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="a"> سيزداد حدوث البرق .</label>
+                <label><input type="radio" name="q3" value="b">  سيصبح لون البرق أزرق بدلًا من الأبيض .</label>
+                <label><input type="radio" name="q3" value="c"> لن يحدث برق .</label>
+            </div>
+        </div>
+
+        <!-- السؤال الرابع -->
+        <div class="question" id="q4-container">
+            <p>4. لماذا يتم تثبيت مانعة الصواعق على المباني العالية؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="a">   لزيادة شدة البرق  .</label>
+                <label><input type="radio" name="q4" value="b"> لمنع تراكم الكهرباء الساكنة في المباني .</label>
+                <label><input type="radio" name="q4" value="c">  لحماية المباني من الاحتراق بسبب الصواعق .</label>
+            </div>
+        </div>
+
+        <!-- السؤال الخامس -->
+        <div class="question" id="q5-container">
+            <p>5. أي من الأمثلة التالية يُعتبر من الثروات الطبيعية غير الحية في فلسطين؟</p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="a"> الأشجار والماشية .</label>
+                <label><input type="radio" name="q5" value="b">  الفواكه والخضروات .</label>
+                <label><input type="radio" name="q5" value="c">   المعادن والصخور .</label>
+            </div>
+        </div>
+		<!-- السؤال السادس -->
+        <div class="question" id="q6-container">
+            <p>6.  أين يمكن العثور على الأملاح في فلسطين؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q6" value="b"> في مياه البحر الميت والصخور القشرية للأرض .</label>
+				<label><input type="radio" name="q6" value="a">   في الأنهار العذبة .</label>
+                <label><input type="radio" name="q6" value="c">   في الغابات والتربة الخصبة .</label>
+            </div>
+        </div>
+		
+				<!-- السؤال السابع -->
+        <div class="question" id="q7-container">
+            <p>7. في رحلة استكشافية، عثر فريق من العلماء على مياه متجمعة في أعماق الأرض. تعجب أحد الأطفال الذين يرافقون الفريق وسأل: "من أين جاءت هذه المياه؟ وكيف تجمعت هنا؟"
+ابتسمت العالمة وأجابت:
+"هذه المياه تسمى..." </p>
+            <div class="options">
+                <label><input type="radio" name="q7" value="b">   المياه السطحية .</label>
+				<label><input type="radio" name="q7" value="a">   المياه الجوفية .</label>
+                <label><input type="radio" name="q7" value="c">   مياه الأمطار .</label>
+            </div>
+        </div>
+
+				<!-- السؤال الثامن -->
+        <div class="question" id="q8-container">
+            <p>8. في إحدى الليالي العاصفة، كان خالد يجلس بجانب نافذته يشاهد المطر ينهمر، وفجأة لمع ضوء قوي في السماء تبعه صوت مدوٍ. ركض خالد إلى جده وسأله: "ما هذا الصوت المرعب؟"
+ابتسم الجد وقال:
+"هذه ظاهرة طبيعية تحدث بسبب الكهرباء الساكنة، هل تعرف ماذا يسمى هذا الضوء؟" </p>
+            <div class="options">
+                <label><input type="radio" name="q8" value="b"> الضوء المتوهج .</label>
+				<label><input type="radio" name="q8" value="a">  الهالة الشمسية .</label>
+                <label><input type="radio" name="q8" value="c">  البرق .</label>
+            </div>
+        </div>
+        <button class="submit-btn" onclick="calculateResult()">إرسال الإجابات</button>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        function calculateResult() {
+            const answers = {
+                q1: 'b',
+                q2: 'a',
+                q3: 'c',
+                q4: 'c',
+                q5: 'c',
+				q6: 'b',
+				q7: 'a',
+				q8: 'c',
+            };
+
+            let score = 0;
+
+            for (let question in answers) {
+                const container = document.getElementById(`${question}-container`);
+                const userAnswer = document.querySelector(`input[name="${question}"]:checked`);
+
+                if (userAnswer) {
+                    if (userAnswer.value === answers[question]) {
+                        score++;
+                        container.classList.add('correct');
+                        container.classList.remove('incorrect');
+                    } else {
+                        container.classList.add('incorrect');
+                        container.classList.remove('correct');
+                    }
+                } else {
+                    container.classList.remove('correct');
+                    container.classList.add('incorrect');
+                }
+            }
+
+            const resultDiv = document.getElementById('result');
+            resultDiv.textContent = `لقد أجبت على : ${score} من 8 أسئلة`;
+        }
+    </script>
+</body>
+</html>
